@@ -1,4 +1,4 @@
-    MINISHELL, THE C# TERMINAL INSPIRED AT BASH:
+                        MINISHELL, THE C# TERMINAL INSPIRED AT BASH:
 
     1. Use "make" to generate the executable.
 
