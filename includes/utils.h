@@ -46,5 +46,6 @@ void	ft_fix_var(char **av, int ac);
 t_shell	*ft_init_no_env(void);
 void	main_loop(t_shell *shell);
 void	ft_preemfree(t_shell	*shell);
+int		ret_of_exit(int x, int nb);
 
 #endif
