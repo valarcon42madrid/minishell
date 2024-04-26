@@ -6,7 +6,7 @@
 /*   By: valarcon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 18:07:14 by valarcon          #+#    #+#             */
-/*   Updated: 2022/11/29 10:49:12 by valarcon         ###   ########.fr       */
+/*   Updated: 2024/04/26 12:04:22 by valarcon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static void	redirect_input(t_shell *shell, int *fd_back)
 	{
 		dup2(fd_back[READ_END], STDIN_FILENO);
 		close(fd_back[READ_END]);
-	}	
+	}
 }
 
 static void	redirect_output(t_shell *shell, t_process *process)

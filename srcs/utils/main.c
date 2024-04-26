@@ -6,7 +6,7 @@
 /*   By: valarcon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 17:59:27 by valarcon          #+#    #+#             */
-/*   Updated: 2022/12/19 17:38:05 by valarcon         ###   ########.fr       */
+/*   Updated: 2024/04/26 12:04:49 by valarcon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ static void	init_process(t_shell *shell, int num_process)
 
 	i = 0;
 	while (i < num_process)
-	{	
+	{
 		expansive_token(shell, shell->data->lst_process->argv, i);
 		del_quotes(shell->data->lst_process);
 		shell->data->lst_process = shell->data->lst_process->next;

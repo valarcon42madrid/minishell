@@ -6,7 +6,7 @@
 /*   By: valarcon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 17:54:18 by valarcon          #+#    #+#             */
-/*   Updated: 2022/11/29 12:06:22 by valarcon         ###   ########.fr       */
+/*   Updated: 2024/04/26 11:58:03 by valarcon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ void	ft_exit(t_data *data)
 		ft_freeend((t_shell *)data->shelldir, data);
 		exit(0);
 	}
-	if (min_atoi(data->lst_process->argv[1]) == -1)
+	if (min_atoi(data->lst_process->argv[1]) == 256)
 	{
 		not_numeric_arg(data);
 		ft_freeend((t_shell *)data->shelldir, data);
