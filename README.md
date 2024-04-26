@@ -1,10 +1,10 @@
     MINISHELL, THE C# TERMINAL INSPIRED AT BASH:
 
-Use "make" to generate the executable.
+    1. Use "make" to generate the executable.
 
-Use "./minishell" to open the project's terminal.
+    2. Use "./minishell" to open the project's terminal.
 
-Use your new terminal as you want...
+    3. Use your new terminal as you want...
 
 
 * If you're at 42's school, you would need to add the readline; follow those steps:
